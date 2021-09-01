@@ -1,0 +1,13 @@
+include_directories(../tetgen)
+add_definitions(-DTETLIBRARY)
+add_library(trimult
+  Boundary.cpp
+  CurveInfo.cpp
+  DMWT.cpp
+  EdgeInfo.cpp
+  Hole.cpp
+  Point3.cpp
+  Tile.cpp
+  TriangleInfo.cpp
+  Vector3.cpp
+  )
